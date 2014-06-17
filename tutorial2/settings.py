@@ -49,6 +49,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+REST_FRAMEWORK = {
+    'PAGINATE_BY': 10
+}
+
 ROOT_URLCONF = 'tutorial2.urls'
 
 WSGI_APPLICATION = 'tutorial2.wsgi.application'
